@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Ordering Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Foodie's Delight</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/order">Order Food</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <img src="images/hero.jpg" alt="Delicious Food">
+            <h2>Order Your Favorite Meals Online</h2>
+            <p>Quick and Easy. Just a few clicks away!</p>
+            <a href="/order" class="btn">Order Now</a>
+        </section>
+
+        <section class="menu">
+            <h2>Our Specialties</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <img src="images/pizza.jpg" alt="Pizza">
+                    <h3>Pizza</h3>
+                    <p>Delicious, cheesy, and fresh</p>
+                </div>
+                <div class="menu-item">
+                    <img src="images/burger.jpg" alt="Burger">
+                    <h3>Burger</h3>
+                    <p>Classic and tasty</p>
+                </div>
+                <div class="menu-item">
+                    <img src="images/sushi.jpg" alt="Sushi">
+                    <h3>Sushi</h3>
+                    <p>Fresh and healthy</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Foodie's Delight. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
+
